@@ -23,8 +23,8 @@ function johnLennonFacts(facts){
 }
 
 function ilovethebeatles(chours){
-  var i = 0;
-  while (i < 8){
+  var ilovethebeatles =[]
+  for (var i = 8; i < chours.length; i++ ){
     var chours1 = ["ilove the Beatles!"];
     ilovethebeatles[i] = chours1
     
