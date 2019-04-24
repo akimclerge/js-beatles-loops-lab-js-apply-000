@@ -24,8 +24,8 @@ function johnLennonFacts(facts){
 
 function ilovethebeatles(chours){
   var ilovethebeatles = []
-  for (var i = 8; i < chours.length; i++ ){
-    var chours1 = ["ilove the Beatles!"];
+  for (var i = 8; i < 8; i++ ){
+    var chours1 = "ilove the Beatles!";
     ilovethebeatles[i] = chours1
     
   }
