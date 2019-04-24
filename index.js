@@ -13,7 +13,11 @@ function theBeatlesPlay(muscians, instruments){
   return musicianSentences
 }
 
-function johnLennonFacts(string){
+function johnLennonFacts(facts){
+  
+  for(var i = 0; i < muscians.length; i++){
+    var newSentence = muscians[i] + " plays " + instruments[i] 
+    musicianSentences[i] = newSentence;
   
   
 }
