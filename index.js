@@ -23,9 +23,10 @@ function johnLennonFacts(facts){
 }
 
 function ilovethebeatles(chours){
-  var i = 0
+  var i = 0;
   while (i < 8){
     var chours1 = ["ilove the Beatles!"];
+    ilovethebeatles[i] = chours1
     
   }
   return chours
