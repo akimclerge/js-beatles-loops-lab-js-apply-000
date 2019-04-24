@@ -16,7 +16,7 @@ function theBeatlesPlay(muscians, instruments){
 function johnLennonFacts(facts){
   var thebeatleloop=[]
   for(var i = 0; i < facts.length; i++){
-    var johnlennon = facts[i] + " !!! " 
+    var johnlennon = facts[i] + "!!!" 
     thebeatleloop[i] = johnlennon;
   }
   return thebeatleloop
