@@ -27,7 +27,7 @@ function ilovethebeatles(chours){
   
   if(chours === 7){
     for (var i = 8; i < 9; i++ ){
-      var chours1 = "ilove the Beatles!";
+      var chours1 = "I love the Beatles!";
       ilovethebeatles[i] = chours1
     }
   }
