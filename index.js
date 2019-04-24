@@ -30,8 +30,8 @@ function iLoveTheBeatles(chours){
       var chours1 = "I love the Beatles!";
       ilovethebeatles[i] = chours1
     }
-  } else {
-      ilovethebeatles[18] = "I love the Beatles!";
+  } else if(chours === 17) {
+      ilovethebeatles[0] = "I love the Beatles!";
   }
   return ilovethebeatles
 }
