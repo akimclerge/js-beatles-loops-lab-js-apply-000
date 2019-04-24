@@ -22,13 +22,16 @@ function johnLennonFacts(facts){
   return thebeatleloop
 }
 
-function iLoveTheBeatles(chours){
+function iLoveTheeatles(chours){
   var ilovethebeatles = []
   
-    for (var i = 0; i < 8; i++ ){
+  if(chours === 7){
+    for (var i = 0; i < 9; i++ ){
       var chours1 = "I love the Beatles!";
       ilovethebeatles[i] = chours1
     }
-  
+  } else if(chours === 17){
+      ilovethebeatles[i] = "I love the Beatles!";
+  }
   return ilovethebeatles
 }
