@@ -3,8 +3,13 @@ const instruments= ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"];
 var Neww = []
 
 function theBeatlesPlay(muscians, instruments){
-  var beatlesloop= Neww.concat(muscians, instruments);
-  return beatlesloop
+  var musicianSentences = []
+  
+  for(int i = 0; i < muscians.length - 1; i++){
+    var newSentence = muscians[i] = " " + instruments[i]; 
+  }
+  
+  return 
 }
 function johnLennonFacts(string){
   return 
