@@ -5,13 +5,14 @@ var Neww = []
 function theBeatlesPlay(muscians, instruments){
   var musicianSentences = []
   
-  for(int i = 0; i < muscians.length; i++){
+  for(var i = 0; i < muscians.length; i++){
     var newSentence = muscians[i] = " plays " + instruments[i] 
     musicianSentences[i] = newSentence;
   }
   
-  return 
+  return musicianSentences
 }
+
 function johnLennonFacts(string){
   return 
   const johnLennonFacts= ["He was the last Beatle to learn to drive",
