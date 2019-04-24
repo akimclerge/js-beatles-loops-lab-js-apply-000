@@ -31,7 +31,7 @@ function iLoveTheBeatles(chours){
       ilovethebeatles[i] = chours1
     }
   } else {
-      ilovethebeatles[0] = "I love the Beatles!";
+      ilovethebeatles[18] = "I love the Beatles!";
   }
   return ilovethebeatles
 }
