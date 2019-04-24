@@ -22,7 +22,7 @@ function johnLennonFacts(facts){
   return thebeatleloop
 }
 
-function iLoveTheeatles(chours){
+function iLoveTheBeatles(chours){
   var ilovethebeatles = []
   
   if(chours === 7){
@@ -31,7 +31,7 @@ function iLoveTheeatles(chours){
       ilovethebeatles[i] = chours1
     }
   } else if(chours === 17){
-     
+      ilovethebeatles[i] = "I love the Beatles!";
   }
   return ilovethebeatles
 }
