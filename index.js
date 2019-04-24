@@ -6,7 +6,8 @@ function theBeatlesPlay(muscians, instruments){
   var musicianSentences = []
   
   for(int i = 0; i < muscians.length - 1; i++){
-    var newSentence = muscians[i] = " " + instruments[i]; 
+    var newSentence = muscians[i] = " plays " + instruments[i]; 
+    musicianSentences[i] = newSentence;
   }
   
   return 
