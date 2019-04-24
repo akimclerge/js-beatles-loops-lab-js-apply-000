@@ -25,11 +25,10 @@ function johnLennonFacts(facts){
 function iLoveTheBeatles(chours){
   var ilovethebeatles = []
   
-  if(chours === 7){
     for (var i = 8; i < 8; i++ ){
       var chours1 = "I love the Beatles!";
       ilovethebeatles[i] = chours1
     }
-  }
+  
   return ilovethebeatles
 }
