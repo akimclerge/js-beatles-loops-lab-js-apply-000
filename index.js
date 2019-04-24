@@ -22,7 +22,7 @@ function johnLennonFacts(facts){
   return thebeatleloop
 }
 
-function ilovethebeatles(){
+function ilovethebeatles(chours){
   var i = 0
   while (i < 8){
     var chours = ["ilove the Beatles!"];
