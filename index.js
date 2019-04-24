@@ -22,7 +22,7 @@ function johnLennonFacts(facts){
   return thebeatleloop
 }
 
-function ilovethebeatles(chours){
+function iLoveTheBeatles(chours){
   var ilovethebeatles = []
   
   if(chours === 7){
